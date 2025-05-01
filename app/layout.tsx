@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     siteName: "Такси Новое",
     images: [
       {
-        url: "/preview.jpg", // относительный путь
+        url: "/preview.png",
         width: 1200,
         height: 630,
         alt: "Такси Новое — Черемхово",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Такси Новое — Черемхово",
     description: "Такси в Черемхово. Заказ через сайт, телефон и приложение.",
-    images: ["/preview.jpg"],
+    images: ["/preview.png"],
   },
   icons: {
     icon: "/favicon.ico",
