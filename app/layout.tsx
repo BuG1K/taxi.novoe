@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "Такси Новое — Такси в Черемхово",
   description: "Надёжное такси в Черемхово. Онлайн-заказ, вызов по телефону, удобное приложение. Работа с водителями.",
   metadataBase: new URL("https://taxi-novoe.vercel.app"),
+  verification: {
+    google: "jW1zSv6t4asOArFjefcQ1yF-YYGA9T8D2eWcmjwIm5s",
+  },
   alternates: {
     canonical: "/",
   },
