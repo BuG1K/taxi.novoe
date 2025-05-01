@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion"
 import { Phone, Mail, MapPin } from "lucide-react"
+import Image from "next/image"
 
 export default function ContactsSection() {
   const container = {
@@ -86,7 +87,13 @@ export default function ContactsSection() {
             <div className="bg-white p-8 rounded-lg shadow-md h-full">
               <h3 className="text-2xl font-bold mb-6">Карта</h3>
               <div className="aspect-square w-full bg-gray-200 rounded-lg flex items-center justify-center">
-                <p className="text-gray-500"></p>
+                <Image
+                  src="/map.png"
+                  alt="Карта"
+                  width={500}
+                  height={500}
+                  className="w-full h-full object-cover"
+                />
               </div>
               <p className="mt-4 text-gray-600 text-center">
                 Мы находимся в центре города, что позволяет нам быстро добраться до любой точки.
