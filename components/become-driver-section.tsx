@@ -55,7 +55,7 @@ export default function BecomeDriverSection() {
         >
           <motion.div className="rounded-lg overflow-hidden shadow-lg" variants={item}>
             <div className="h-64 bg-gray-200 relative overflow-hidden">
-              <Image src="/taxi-car.png" alt="Такси" width={600} height={400} className="w-full h-full object-cover" />
+              <Image src="/driver.webp" alt="Такси" width={600} height={400} className="w-full h-full object-cover" />
               <div className="absolute inset-0 bg-gradient-to-b from-black/20 to-black/60 flex items-end p-6">
                 <h3 className="text-white text-2xl font-bold">Начните зарабатывать с нами</h3>
               </div>
