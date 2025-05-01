@@ -64,15 +64,17 @@ export default function AboutSection() {
             whileInView="visible"
             viewport={{ once: true }}
           >
-            <motion.div className="bg-white p-6 rounded-lg shadow-md text-center" variants={item}>
-              <div className="bg-red-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+            <motion.div className="bg-white p-6 rounded-lg shadow-md text-center" style={{ position: "relative" }} variants={item}>
+              <div
+                className="bg-red-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4"
+              >
                 <Clock className="h-8 w-8 text-red-600" />
               </div>
               <h3 className="text-xl font-bold mb-2">Пунктуальность</h3>
               <p className="text-gray-600">Мы ценим ваше время и всегда приезжаем вовремя</p>
             </motion.div>
 
-            <motion.div className="bg-white p-6 rounded-lg shadow-md text-center" variants={item}>
+            <motion.div className="bg-white p-6 rounded-lg shadow-md text-center" style={{ position: "relative" }} variants={item}>
               <div className="bg-yellow-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Shield className="h-8 w-8 text-yellow-600" />
               </div>
@@ -80,7 +82,7 @@ export default function AboutSection() {
               <p className="text-gray-600">Ваша безопасность — наш главный приоритет</p>
             </motion.div>
 
-            <motion.div className="bg-white p-6 rounded-lg shadow-md text-center" variants={item}>
+            <motion.div className="bg-white p-6 rounded-lg shadow-md text-center" style={{ position: "relative" }} variants={item}>
               <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <UserCheck className="h-8 w-8 text-blue-600" />
               </div>

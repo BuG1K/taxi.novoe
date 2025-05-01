@@ -31,6 +31,7 @@ export default function BecomeDriverSection() {
       <div className="container mx-auto px-4">
         <motion.div
           className="text-center mb-16"
+          style={{ position: "relative" }}
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -46,6 +47,7 @@ export default function BecomeDriverSection() {
 
         <motion.div
           className="grid md:grid-cols-2 gap-8 items-center"
+          style={{ position: "relative" }}
           variants={container}
           initial="hidden"
           whileInView="visible"

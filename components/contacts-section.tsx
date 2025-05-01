@@ -36,6 +36,7 @@ export default function ContactsSection() {
 
         <motion.div
           className="grid md:grid-cols-2 gap-12 max-w-4xl mx-auto"
+          style={{ position: "relative" }}
           variants={container}
           initial="hidden"
           whileInView="visible"
