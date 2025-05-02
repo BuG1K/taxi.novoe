@@ -56,6 +56,7 @@ export default function AppDownloadSection() {
                   <Button
                     className="hover:bg-red-700 text-white flex items-center gap-2 shadow-md"
                     style={{ backgroundColor: "#f43249"}}
+                    onClick={() => window.open("https://play.google.com/store/apps/details?id=ru.taximaster.tmtaxicaller.id1192&hl=ru", "_blank")}
                   >
                     Скачать из Google Play
                   </Button>
@@ -85,7 +86,9 @@ export default function AppDownloadSection() {
                   <p className="text-gray-600 mb-4">Скачайте из App Store и оцените премиальный сервис такси</p>
                   <Button
                     className="mt-auto bg-yellow-500 hover:bg-yellow-600 text-white flex items-center gap-2 shadow-md"
-                    style={{ backgroundColor: "#2177ee"}}>
+                    style={{ backgroundColor: "#2177ee"}}
+                    onClick={() => window.open("https://apps.apple.com/ru/app/%D1%82%D0%B0%D0%BA%D1%81%D0%B8-%D0%BD%D0%BE%D0%B2%D0%BE%D0%B5/id6745222609", "_blank")}
+                  >
                     Скачать из App Store
                   </Button>
                   <p className="mt-3 text-xs text-yellow-800 font-medium">4.9★ рейтинг</p>
@@ -114,7 +117,9 @@ export default function AppDownloadSection() {
                   <p className="text-gray-600 mb-4">Скачайте из Huawei AppGallery для устройств Huawei</p>
                   <Button
                     className="hover:bg-purple-700 text-white flex items-center gap-2 shadow-md"
-                    style={{ backgroundColor: "#ef454a" }}>
+                    style={{ backgroundColor: "#ef454a" }}
+                    onClick={() => window.open("https://appgallery.huawei.com/#/app/C114080025", "_blank")}
+                  >
                     <Download className="h-5 w-5" />
                     Скачать из AppGallery
                   </Button>
@@ -144,6 +149,7 @@ export default function AppDownloadSection() {
                   <Button
                     className="bg-blue-500 hover:bg-blue-600 text-white flex items-center gap-2 shadow-md"
                     style={{ backgroundColor: "#40b3df" }}
+                    onClick={() => window.open("https://t.me/Taxi_novoe_bot", "_blank")}
                   >
                     <MessageCircle className="h-5 w-5" />
                     Открыть в Telegram
