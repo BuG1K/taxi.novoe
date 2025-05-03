@@ -57,12 +57,14 @@ export default function AppDownloadCards() {
                   <p className="text-gray-600 mb-4">
                     Удобный заказ такси — в нашем приложении на Google Play
                   </p>
-                  <Button
-                    className="hover:bg-red-700 text-white flex items-center gap-2 shadow-md"
-                    style={{ backgroundColor: "#f43249"}}
-                  >
-                    Скачать из Google Play
-                  </Button>
+                  <a href="https://play.google.com/store/apps/details?id=ru.taximaster.tmtaxicaller.id1192&hl=ru">
+                    <Button
+                      className="hover:bg-red-700 text-white flex items-center gap-2 shadow-md"
+                      style={{ backgroundColor: "#f43249"}}
+                    >
+                      Скачать из Google Play
+                    </Button>
+                  </a>
                   <p className="mt-3 text-xs text-red-800 font-medium">4.2★ рейтинг</p>
                 </div>
               </div>
@@ -74,7 +76,7 @@ export default function AppDownloadCards() {
         variants={item}
         layout
       >
-                      <div
+              <div
                 className="bg-white rounded-xl shadow-xl overflow-hidden border transition-all hover:shadow-2xl transform hover:scale-105"
                 style={{ borderColor: "#2177ee" }}
               >
@@ -94,11 +96,13 @@ export default function AppDownloadCards() {
                     App Store
                   </h3>
                   <p className="text-gray-600 mb-4">Скачайте из App Store и оцените премиальный сервис такси</p>
-                  <Button
-                    className="mt-auto bg-yellow-500 hover:bg-yellow-600 text-white flex items-center gap-2 shadow-md"
-                    style={{ backgroundColor: "#2177ee"}}>
-                    Скачать из App Store
-                  </Button>
+                  <a href="https://apps.apple.com/ru/app/%D1%82%D0%B0%D0%BA%D1%81%D0%B8-%D0%BD%D0%BE%D0%B2%D0%BE%D0%B5/id6745222609">
+                    <Button
+                      className="mt-auto bg-yellow-500 hover:bg-yellow-600 text-white flex items-center gap-2 shadow-md"
+                      style={{ backgroundColor: "#2177ee"}}>
+                      Скачать из App Store
+                    </Button>
+                  </a>
                   <p className="mt-3 text-xs text-yellow-800 font-medium">4.9★ рейтинг</p>
                 </div>
               </div>

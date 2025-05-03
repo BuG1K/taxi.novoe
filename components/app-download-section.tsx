@@ -53,13 +53,14 @@ export default function AppDownloadSection() {
                   <p className="text-gray-600 mb-4">
                     Удобный заказ такси — в нашем приложении на Google Play
                   </p>
-                  <Button
-                    className="hover:bg-red-700 text-white flex items-center gap-2 shadow-md"
-                    style={{ backgroundColor: "#f43249"}}
-                    onClick={() => window.open("https://play.google.com/store/apps/details?id=ru.taximaster.tmtaxicaller.id1192&hl=ru", "_blank")}
-                  >
-                    Скачать из Google Play
-                  </Button>
+                  <a href="https://play.google.com/store/apps/details?id=ru.taximaster.tmtaxicaller.id1192&hl=ru">
+                    <Button
+                      className="hover:bg-red-700 text-white flex items-center gap-2 shadow-md"
+                      style={{ backgroundColor: "#f43249"}}
+                    >
+                      Скачать из Google Play
+                    </Button>
+                  </a>
                   <p className="mt-3 text-xs text-red-800 font-medium">4.2★ рейтинг</p>
                 </div>
               </div>
@@ -84,13 +85,14 @@ export default function AppDownloadSection() {
                     App Store
                   </h3>
                   <p className="text-gray-600 mb-4">Скачайте из App Store и оцените премиальный сервис такси</p>
-                  <Button
-                    className="mt-auto bg-yellow-500 hover:bg-yellow-600 text-white flex items-center gap-2 shadow-md"
-                    style={{ backgroundColor: "#2177ee"}}
-                    onClick={() => window.open("https://apps.apple.com/ru/app/%D1%82%D0%B0%D0%BA%D1%81%D0%B8-%D0%BD%D0%BE%D0%B2%D0%BE%D0%B5/id6745222609", "_blank")}
-                  >
-                    Скачать из App Store
-                  </Button>
+                  <a href="https://apps.apple.com/ru/app/%D1%82%D0%B0%D0%BA%D1%81%D0%B8-%D0%BD%D0%BE%D0%B2%D0%BE%D0%B5/id6745222609">
+                    <Button
+                      className="mt-auto bg-yellow-500 hover:bg-yellow-600 text-white flex items-center gap-2 shadow-md"
+                      style={{ backgroundColor: "#2177ee"}}
+                    >
+                      Скачать из App Store
+                    </Button>
+                  </a>
                   <p className="mt-3 text-xs text-yellow-800 font-medium">4.9★ рейтинг</p>
                 </div>
               </div>
@@ -115,14 +117,15 @@ export default function AppDownloadSection() {
                   </div>
                   <h3 className="text-2xl font-bold mb-2 text-gray-800">AppGallery</h3>
                   <p className="text-gray-600 mb-4">Скачайте из Huawei AppGallery для устройств Huawei</p>
-                  <Button
-                    className="hover:bg-purple-700 text-white flex items-center gap-2 shadow-md"
-                    style={{ backgroundColor: "#ef454a" }}
-                    onClick={() => window.open("https://appgallery.huawei.com/#/app/C114080025", "_blank")}
-                  >
-                    <Download className="h-5 w-5" />
-                    Скачать из AppGallery
-                  </Button>
+                  <a href="https://appgallery.huawei.com/#/app/C114080025">
+                    <Button
+                      className="hover:bg-purple-700 text-white flex items-center gap-2 shadow-md"
+                      style={{ backgroundColor: "#ef454a" }}
+                    >
+                      <Download className="h-5 w-5" />
+                      Скачать из AppGallery
+                    </Button>
+                  </a>
                 </div>
               </div>
 
@@ -146,19 +149,20 @@ export default function AppDownloadSection() {
                   <p className="text-gray-600 mb-4">
                     Не выходя из Telegram — вызывайте такси с нашим ботом
                   </p>
+                  <a href="https://t.me/Taxi_novoe_bot">
                   <Button
                     className="bg-blue-500 hover:bg-blue-600 text-white flex items-center gap-2 shadow-md"
                     style={{ backgroundColor: "#40b3df" }}
-                    onClick={() => window.open("https://t.me/Taxi_novoe_bot", "_blank")}
                   >
                     <MessageCircle className="h-5 w-5" />
                     Открыть в Telegram
                   </Button>
+                  </a>
                 </div>
               </div>
             </div>
 
-            <div className="mt-6">
+            {/* <div className="mt-6">
               <div className="bg-white rounded-xl shadow-xl overflow-hidden border border-green-200 transition-all hover:shadow-2xl transform hover:scale-105">
                 <div className="h-3 bg-green-600" />
                 <div className="p-6 flex flex-col items-center text-center">
@@ -174,7 +178,7 @@ export default function AppDownloadSection() {
                   <p className="mt-3 text-xs text-green-800 font-medium">Версия 2.5.3</p>
                 </div>
               </div>
-            </div>
+            </div> */}
           </motion.div>
 
           <motion.div
@@ -184,7 +188,7 @@ export default function AppDownloadSection() {
             viewport={{ once: true }}
             transition={{ duration: 0.8, delay: 0.3 }}
           >
-            <div className="relative h-[700px] w-full max-w-[350px]">
+            <div className="relative h-[700px] w-full max-w-[350px] flex">
               <Image
                 src="/phone.webp"
                 alt="Скриншот приложения такси"
