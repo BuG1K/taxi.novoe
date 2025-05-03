@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import './globals.css'
 import { Analytics } from '@vercel/analytics/next';
+import Script from 'next/script';
 
 export const metadata: Metadata = {
   title: "Такси Новое — Такси в Черемхово",
@@ -47,6 +48,21 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ru">
+      <head>
+      <Script
+          type="application/ld+json"
+          id="jsonld"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "name": "Такси Новое",
+              "url": "https://taxi-novoe.vercel.app",
+              "logo": "https://taxi-novoe.vercel.app/logo.png"
+            }),
+          }}
+        />
+      </head>
       <body>
         {children}
         <Analytics />
