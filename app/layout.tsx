@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "Такси Новое — Черемхово",
-    description: "Круглосуточный заказ такси в Черемхово. Удобное приложение и вызов по номеру.",
+    description: "Удобный заказ такси в Черемхово через Telegram-бот, мобильное приложение и по телефону.",
     url: "https://taxi-novoe.vercel.app",
     siteName: "Такси Новое",
     images: [
