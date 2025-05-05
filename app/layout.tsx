@@ -5,7 +5,7 @@ import Script from 'next/script';
 
 export const metadata: Metadata = {
   title: "Такси Новое — Такси в Черемхово",
-  description: "Надёжное такси в Черемхово. Онлайн-заказ, вызов по телефону, удобное приложение. Работа с водителями.",
+  description: "Удобный заказ такси в Черемхово через Telegram-бот, мобильное приложение и по телефону..",
   metadataBase: new URL("https://taxi-novoe.vercel.app"),
   verification: {
     google: "jW1zSv6t4asOArFjefcQ1yF-YYGA9T8D2eWcmjwIm5s",
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   openGraph: {
-    title: "Такси Новое — Черемхово",
+    title: "Такси Новое — Такси в Черемхово",
     description: "Удобный заказ такси в Черемхово через Telegram-бот, мобильное приложение и по телефону.",
     url: "https://taxi-novoe.vercel.app",
     siteName: "Такси Новое",
@@ -31,8 +31,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Такси Новое — Черемхово",
-    description: "Такси в Черемхово. Заказ через сайт, телефон и приложение.",
+    title: "Такси Новое — Такси в Черемхово",
+    description: "Удобный заказ такси в Черемхово через Telegram-бот, мобильное приложение и по телефону.",
     images: ["/preview.png"],
   },
   icons: {
