@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
 
 export function middleware(request: NextRequest) {
-  // return NextResponse.redirect('https://taxi-novoe.tvoe.taxi/', 308);
+  return NextResponse.redirect('https://taxi-novoe.ru', 308);
 }
 
 // Применяется ко всем путям

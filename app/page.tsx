@@ -9,16 +9,12 @@
 // import Footer from "@/components/footer"
 // import FloatingActionButtons from "@/components/floating-action-buttons"
 // import MovingBackground from "@/components/moving-background"
-// import { redirect } from 'next/navigation';
+import { redirect } from 'next/navigation';
 
-// export const dynamic = 'force-static';
+export const dynamic = 'force-static';
 
 export default function Home() {
-  return (
-    <h1>23</h1>
-  );
-
-  // redirect('https://taxi-novoe.tvoe.taxi/');
+  redirect('https://taxi-novoe.tvoe.taxi/');
 
   // return (
   //   <>
