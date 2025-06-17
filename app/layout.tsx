@@ -1,7 +1,7 @@
-import type { Metadata } from 'next'
-import './globals.css'
-import { Analytics } from '@vercel/analytics/next';
-import Script from 'next/script';
+// import type { Metadata } from 'next'
+// import './globals.css'
+// import { Analytics } from '@vercel/analytics/next';
+// import Script from 'next/script';
 
 // export const metadata: Metadata = {
 //   title: "Такси Новое — Такси в Черемхово",

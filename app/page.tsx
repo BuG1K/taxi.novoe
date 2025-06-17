@@ -14,7 +14,7 @@ import { redirect } from 'next/navigation';
 export const dynamic = 'force-static';
 
 export default function Home() {
-  redirect('https://taxi-novoe.tvoe.taxi/');
+  redirect('https://taxi-novoe.ru');
 
   // return (
   //   <>
