@@ -15,15 +15,7 @@
 
 export default function Home() {
   return (
-    <html>
-      <head>
-        <meta httpEquiv="refresh" content="0; url=https://taxi-novoe.tvoe.taxi" />
-        <title>Перенаправление...</title>
-      </head>
-      <body>
-        <p>Перенаправляем...</p>
-      </body>
-    </html>
+    <h1>23</h1>
   );
 
   // redirect('https://taxi-novoe.tvoe.taxi/');
