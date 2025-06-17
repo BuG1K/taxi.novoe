@@ -11,8 +11,6 @@
 // import MovingBackground from "@/components/moving-background"
 import { redirect } from 'next/navigation';
 
-export const dynamic = 'force-static';
-
 export default function Home() {
   redirect('https://taxi-novoe.tvoe.taxi/');
 
