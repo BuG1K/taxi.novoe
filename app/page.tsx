@@ -1,3 +1,6 @@
+"use client";
+
+import { useEffect } from 'react';
 // import { Suspense } from "react"
 // import LoadingScreen from "@/components/loading-screen"
 // import Header from "@/components/header"
@@ -9,12 +12,25 @@
 // import Footer from "@/components/footer"
 // import FloatingActionButtons from "@/components/floating-action-buttons"
 // import MovingBackground from "@/components/moving-background"
-import { redirect } from 'next/navigation';
+// import { redirect } from 'next/navigation';
 
 export default function Home() {
   // redirect('https://taxi-novoe.tvoe.taxi/');
+  useEffect(() => {
+    window.location.href = 'https://taxi-novoe.tvoe.taxi';
+  }, []);
 
-  return 123;
+  return (
+    <html>
+      <head>
+        <meta httpEquiv="refresh" content="0; url=https://taxi-novoe.ru" />
+        <title>Перенаправление...</title>
+      </head>
+      <body>
+        <p>Перенаправляем...</p>
+      </body>
+    </html>
+  );
 
   // return (
   //   <>
