@@ -1,6 +1,3 @@
-"use client";
-
-import { useEffect } from 'react';
 // import { Suspense } from "react"
 // import LoadingScreen from "@/components/loading-screen"
 // import Header from "@/components/header"
@@ -14,16 +11,13 @@ import { useEffect } from 'react';
 // import MovingBackground from "@/components/moving-background"
 // import { redirect } from 'next/navigation';
 
-export default function Home() {
-  // redirect('https://taxi-novoe.tvoe.taxi/');
-  useEffect(() => {
-    window.location.href = 'https://taxi-novoe.tvoe.taxi';
-  }, []);
+export const dynamic = 'force-static';
 
+export default function Home() {
   return (
     <html>
       <head>
-        <meta httpEquiv="refresh" content="0; url=https://taxi-novoe.ru" />
+        <meta httpEquiv="refresh" content="0; url=https://taxi-novoe.tvoe.taxi" />
         <title>Перенаправление...</title>
       </head>
       <body>
@@ -31,6 +25,8 @@ export default function Home() {
       </body>
     </html>
   );
+
+  // redirect('https://taxi-novoe.tvoe.taxi/');
 
   // return (
   //   <>

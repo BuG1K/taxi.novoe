@@ -1,4 +1,5 @@
 /** @type {import('next').NextConfig} */
+
 const nextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
@@ -9,6 +10,15 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  // async redirects() {
+  //   return [
+  //     {
+  //       source: '/',
+  //       destination: 'https://taxi-novoe.tvoe.taxi',
+  //       permanent: true, // если хочешь постоянный редирект (SEO-френдли)
+  //     },
+  //   ]
+  // },
 }
 
-export default nextConfig
+export default nextConfig;
