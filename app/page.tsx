@@ -12,7 +12,9 @@
 import { redirect } from 'next/navigation';
 
 export default function Home() {
-  redirect('https://taxi-novoe.tvoe.taxi/');
+  // redirect('https://taxi-novoe.tvoe.taxi/');
+
+  return 123;
 
   // return (
   //   <>
