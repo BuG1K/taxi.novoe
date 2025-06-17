@@ -11,7 +11,7 @@
 // import MovingBackground from "@/components/moving-background"
 // import { redirect } from 'next/navigation';
 
-export const dynamic = 'force-static';
+// export const dynamic = 'force-static';
 
 export default function Home() {
   return (
